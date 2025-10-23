@@ -1,22 +1,38 @@
+
+/* Import Google Fonts or custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Myanmar+Sans+Pro:wght@400;500;600&display=swap');
+
 @import "tailwindcss";
 @plugin "daisyui";
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-
-
-
-#root{
+/* Global font settings */
+#root {
   font-family: "Space Grotesk", sans-serif;
 }
 
-.texth{
-  color:#FFFFFF;
+/* Optional classes to use custom fonts anywhere */
+.inter {
+  font-family: "Inter", sans-serif;
 }
+
+.myanmar {
+  font-family: "Myanmar Sans Pro", sans-serif;
+}
+
+/* Text color */
+.texth {
+  color: #FFFFFF;
+}
+.texts {
+  color: #6A7282;
+}
+
+/* Button styling */
 .button {
   background: linear-gradient(to right, #092846, #06585C);
   padding: 12px 26px;
   border: none;
- 
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
 }
