@@ -10,6 +10,7 @@ import ResetPassword from "../Pages/Authentication/ResetPassword";
 import Admin_Home from "../Layout/Admin/Admin_Home";
 
 import About from "../Pages/About/About";
+import Service from "../Pages/Service/Service";
   
 
 export const router = createBrowserRouter([
@@ -18,7 +19,8 @@ export const router = createBrowserRouter([
       element: <Main />,
         children: [
           {path: '/', element: <Home/>},
-          {path: '/about', element: <About/>}
+          {path: '/about', element: <About/>},
+          {path: '/service', element: <Service/>}
       ]
     },
 
