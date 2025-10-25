@@ -8,6 +8,8 @@ import EmailVerification from "../Pages/Authentication/EmailVerification";
 import OTP_Verification from "../Pages/Authentication/OTP_Verification";
 import ResetPassword from "../Pages/Authentication/ResetPassword";
 import Admin_Home from "../Layout/Admin/Admin_Home";
+
+import About from "../Pages/About/About";
   
 
 export const router = createBrowserRouter([
@@ -15,7 +17,8 @@ export const router = createBrowserRouter([
       path: "/",
       element: <Main />,
         children: [
-          {path: '/', element: <Home/>}
+          {path: '/', element: <Home/>},
+          {path: '/about', element: <About/>}
       ]
     },
 

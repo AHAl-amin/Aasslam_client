@@ -12,9 +12,9 @@ const Navbar = () => {
     <div className='sticky top-0 z-50 shadow-black/20'>
       <nav className="bg-[#FFFFFF] pt-10 pb-3 px-6 shadow-md ">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-4">
+          <Link to='/' className="flex items-center space-x-4">
             <img src={Logo} alt="Logo" className=" w-auto" />
-          </div>
+          </Link>
 
           <div className="hidden md:flex space-x-8">
             <div className="p-[1px] rounded bg-gradient-to-r from-[#00B0B9] to-[#0E61B1] inline-block relative">
